@@ -1,4 +1,4 @@
-# Executing C-code in Python!
+# Executing C and C++ code in Python!
 Testing functions made in _C_ and _C++_ in _Python_ and _JavaScript_ using the ``ctypes``and ``ffi`` libraries.
 The _C_ and _C++_ files are compiled into a ``shared object file`` that the libraries require.
 
@@ -15,5 +15,5 @@ __C++ code:__
 ```g++ main.o -shared -o main.so``` creates an shared object file.
 
 ### System
-MacOS
+MacOS  
 Python 3.6.4
