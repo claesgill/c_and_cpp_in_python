@@ -11,7 +11,7 @@ __C code:__
 ```gcc main.o -shared -o main.so``` creates an shared object file.
 
 __C++ code:__  
-```g++ -c -fPIC main.cpp -o main.o``` creates an object file.
+```g++ -c -fPIC main.cpp -o main.o``` creates an object file.  
 ```g++ main.o -shared -o main.so``` creates an shared object file.
 
 ### System
